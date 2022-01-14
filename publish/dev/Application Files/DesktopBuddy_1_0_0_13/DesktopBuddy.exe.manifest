@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DesktopBuddy.exe" version="1.0.0.13" publicKeyToken="eb322da3fe83c1c2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="buddy_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DesktopBuddy" version="1.0.0.13" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DesktopBuddy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DesktopBuddy.exe" size="3501536">
+      <assemblyIdentity name="DesktopBuddy" version="1.0.0.13" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>n7BOt6n5Cw80HIme0+33UELp153MI8Xu3XLgMNkuuQs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Drawing.Common.dll" size="51344">
+      <assemblyIdentity name="System.Drawing.Common" version="4.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>c46LVD6OrGQYmj+7D2fOBYqfAKWPK+W1SaFEP4OCRoE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfAnimatedGif.dll" size="42496">
+      <assemblyIdentity name="WpfAnimatedGif" version="2.0.0.0" publicKeyToken="9E7CD3B544A090DC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tMab4hO6PdQOa8gZt7/BOrA9BtXz76DkZDsbVeWlKfk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="buddy_icon.ico" size="184862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9ixagRQGqB4OtD/CLUgW6Z9CeGvOSsx/O+j8HW0+rXw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DesktopBuddy.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-UF4MOCI\bri4n" issuerKeyHash="0ab160c29a3fd8d99fb8722157a06ddb18259a09" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rQnVYQeqY/AsIYePzfidJm3syQJ2nQuY8cPuR6clzdo=</DigestValue></Reference></SignedInfo><SignatureValue>JOPHuGY4x2REx6amvksuQvX6srpeYUq36BIxgrBxpc8Y7NIvsA8Exws+q6blWQaB5K1bmywcQ3dvINTy6qhWz3DZW9Xw5gDFLY1DzhgXfSOy03ahEsDHEengyHFyc3JUexsAwi/V5cHBdO9sh2PQYOOM4gCbBxDGFMa1dOqx1Ew=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>09ol1eLuuzreeMflgIszltK3tTfZpjiICD2ZdbQfNQ1RxtZqmSaX65mobswSPJCRuzhEtkQBi/yOtXm6jhaYW6x1iZ66pz7eyDlXwsTggQlFxZqgP0kr2jFOMdlduRPq86ycVsJuiHLhepSMs2hi6sn4FBpTvrEjrdvg+9tsJw0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dacd25a747eec3f1980b9d7602c9ec6d269df8cd8f87212cf063aa0761d509ad" Description="" Url=""><as:assemblyIdentity name="DesktopBuddy.exe" version="1.0.0.13" publicKeyToken="eb322da3fe83c1c2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UF4MOCI\bri4n</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GvmWhDVNlAJe1iD43g2U+2dsLfiU8rUuHxHOXGAblU8=</DigestValue></Reference></SignedInfo><SignatureValue>XBhPMmZJNmqa13YX1mkYnJc0m2qYz+nIF85fgkI+eMEwJGUFtavqQJRao+7X1P2f1sIlpluwTjHaxNI6foX65yliZXK0+fnJkF4O87JsSt1HnV+hGXqXAEUFeSc1vTTEMWdEzdPObcAiePAstPfbQooUScejFo8MHDxpbfJhKMk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>09ol1eLuuzreeMflgIszltK3tTfZpjiICD2ZdbQfNQ1RxtZqmSaX65mobswSPJCRuzhEtkQBi/yOtXm6jhaYW6x1iZ66pz7eyDlXwsTggQlFxZqgP0kr2jFOMdlduRPq86ycVsJuiHLhepSMs2hi6sn4FBpTvrEjrdvg+9tsJw0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQMlrNu/xBnr5E/gMWmCU6jjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUARgA0AE0ATwBDAEkAXABiAHIAaQA0AG4wHhcNMjExMjI1MDU1NjAyWhcNMjIxMjI1MTE1NjAyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUARgA0AE0ATwBDAEkAXABiAHIAaQA0AG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANPaJdXi7rs63njH5YCLM5bSt7U32aY4iAg9mXW0HzUNUcbWapkml+uZqG7MEjyQkbs4RLZEAYv8jrV5uo4WmFusdYmeuqc+3sg5V8LE4IEJRcWaoD9JK9oxTjHZXbkT6vOsnFbCbohy4XqUjLNoYurJ+BQaU76xI63b4PvbbCcNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHsCvA7r/lZzH1oBXXmMWwP9XbjD3fV3kpE3l7T+REU4BhgKHvoMQXKyBpi4KiLjfrTsWrnpX9A4AChJnB5Y9rfSwmbpkMFxpdHo6ZXfRyvNH/zO+ADKLCDtEuthOpzurBJHabOkcw/TXpujY/KEDRRtDfnFDjH5myfKZA40K/EA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
